@@ -174,10 +174,7 @@ class Http_client{
 
 
 
-#include <signal.h>
-
 int main(){
-    signal(SIGTERM, SIG_IGN);
     //create client
     Http_client client{};
     
